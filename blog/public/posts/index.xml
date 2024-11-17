@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Oct 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Journey Into Session Based Test Management: The Test Dashboard</title>
+      <link>http://localhost:1313/posts/test-dashboard/</link>
+      <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test-dashboard/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Installment 3: Reporting Project Status with A Lightweight QA Dashboard&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The thing that we like about test charters is that although the methods we employ are often technical, the goals of testing are always about the business. The language that we employ with charters allows us to speak in business language when needed and technical language when that makes more sense.&lt;/p&gt;&#xA;&lt;p&gt;To roll up charters into a high level status for executives and project managers we employ a simple QA dashboard that is guided by the following ideas:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Journey Into Session Based Test Management: Test Charters</title>
+      <link>http://localhost:1313/posts/charters/</link>
+      <pubDate>Mon, 27 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/charters/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Installment 2: Test Charters in Practice&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In our initial installment of SBTM posts I discussed the problems that I see with the classic test case approach. Test cases end up being a deluge of detail and are tedious to follow and document. Even in an ideal setting where we are able to specify exactly what will be done and do exactly what we specify, the picture will always be incomplete.&#xA;Consider this story: A tester is executing a case for a new feature. This feature takes two values from a source database, sums them and writes the result to a target data warehouse. A test case is written that instructs the tester to query the source, manually add up the values, and then look at the target to see that the calculated and recorded value is correct. If the tester can confirm that the value is correct. A simple examination says that the case passes and the tester can move on. But the value can be correct and still not be valid. There could be problems that show up in all kinds of ways that this case does not address:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Journey Into Session Based Test Management</title>
+      <link>http://localhost:1313/posts/session-based/</link>
+      <pubDate>Sat, 14 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/session-based/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Installment 1: On Test Cases&lt;/strong&gt;&#xA;One of the core values of our QA practice at the Vivaki Nerve Center is Intellectual Honesty. It is an aesthetic that we strive for truthfulness in our work and our communications and give the most accurate, least obfuscated information possible even when it is the harder thing to do.&lt;/p&gt;&#xA;&lt;p&gt;With that I have been driven to rethink our practice of test documentation and test cases. One of the most common questions from partners and leadership is what percentage of test cases are complete and what percentage of test cases are passing? On the surface this seems to be a reasonable metric for progress and results of test activity on a project. At least until we start to notice:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Essence of Need for Automation in Testing</title>
+      <link>http://localhost:1313/posts/essential-test-automation/</link>
+      <pubDate>Fri, 18 May 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/essential-test-automation/</guid>
+      <description>&lt;p&gt;Many years ago, before I found my home here at the VNC, I found myself interviewing at another software / website company just around the corner for a position as an SDET. It was an intensive hiring process in which I wrote code both prior to and during the interview. I am a solid utility coder, but no savant, and the problems that they gave to me were largely beyond my ken. By the time the interview was through he first hour of four, I knew that I was not likely to get this job.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Finishing Well</title>
+      <link>http://localhost:1313/posts/fisishing-well/</link>
+      <pubDate>Mon, 07 May 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fisishing-well/</guid>
+      <description>&lt;p&gt;There are a lot of shops these days doing some cutting edge lifecycle management techniques like continuous deployment, A/B testing on the live site, deploying to prod at the end of every scrum and other new and exciting ideas. These techniques work well for very high volume sites that serve a large number of users, but we at the Vivaki Nerve Center are focused on delivering very high value to a very low number of users, at least relative to Google and Facebook. Our deployment cycle is bound to major milestones and negotiated features, and we sometimes find ourselves wanting to get features out in front of users first and then address cost of ownership and the burden on the production team in subsequent hotfixes or launches.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
