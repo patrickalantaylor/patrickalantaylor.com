@@ -84,3 +84,14 @@ tfoot,
 tr:nth-child(even) {
     background: #eee;
 }
+
+ul {
+    color: green;
+    line-height: 1.3em;
+}
+/* todo get clearner link for the h1 and pages
+*/
+a {
+    color: black;
+    text-decoration: none;
+}
