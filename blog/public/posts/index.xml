@@ -6,8 +6,29 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Oct 2012 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes vs. Serverless:</title>
+      <link>http://localhost:1313/posts/k8s-serverless/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/k8s-serverless/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Kubernetes vs. Serverless: Which Is Best For Your Applications?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Microservice development has been around for some time and only continues to improve in popularity due to its flexibility and natural ability to accommodate scale.&lt;/p&gt;&#xA;&lt;p&gt;Containers are a great way to run microservices and Kubernetes (often abbreviated as k8s) and Docker are the clear favorites. Developers build their containers in Docker on the laptop and DevOps deploys the same to the k8s cluster in the cloud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Focusing and Defocusing</title>
+      <link>http://localhost:1313/posts/focusing/</link>
+      <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/focusing/</guid>
+      <description>&lt;p&gt;I have been lucky enough to do some on-the-ground coaching with our test staff over the last couple of weeks and I was reminded about the unique issues involved with getting from suspected problems or code smells to isolated and replicable bugs. There are many cases in which we see something a first that appears to be an problem and turns out to be either bigger or smaller than it seemed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Embracing Ambiguity</title>
+      <link>http://localhost:1313/posts/ambiguity/</link>
+      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ambiguity/</guid>
+      <description>&lt;p&gt;What we are here to do in QA is to help the team to develop the highest quality product inside the shortest possible time with the lowest possible cost. We test software, not to prove its fitness or to pass or fail test cases. We test software to avoid the pain and cost of delivering a product that is too expensive to maintain, or too unstable to provide utility to our users.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Journey Into Session Based Test Management: The Test Dashboard</title>
       <link>http://localhost:1313/posts/test-dashboard/</link>
@@ -21,6 +42,13 @@
       <pubDate>Mon, 27 Aug 2012 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/charters/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Installment 2: Test Charters in Practice&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In our initial installment of SBTM posts I discussed the problems that I see with the classic test case approach. Test cases end up being a deluge of detail and are tedious to follow and document. Even in an ideal setting where we are able to specify exactly what will be done and do exactly what we specify, the picture will always be incomplete.&#xA;Consider this story: A tester is executing a case for a new feature. This feature takes two values from a source database, sums them and writes the result to a target data warehouse. A test case is written that instructs the tester to query the source, manually add up the values, and then look at the target to see that the calculated and recorded value is correct. If the tester can confirm that the value is correct. A simple examination says that the case passes and the tester can move on. But the value can be correct and still not be valid. There could be problems that show up in all kinds of ways that this case does not address:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Json in Powershell 3.0</title>
+      <link>http://localhost:1313/posts/json-powershell/</link>
+      <pubDate>Tue, 31 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/json-powershell/</guid>
+      <description>&lt;p&gt;I use Powershell to do a lot of utility coding and exploratory work in testing, I really like having the full features of the .net framework in an interactive environment which encourages me to iterate and poke around. I can instantiate .net objects and then inspect them in an interactive command line to see all their properties and methods. This makes it a terrific testing tool to do exploratory work on systems that have no UI.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Journey Into Session Based Test Management</title>

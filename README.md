@@ -6,5 +6,6 @@ publishing info
 ftp to static web host
 
 cd public
-
-rsync /Users/i7/filename user@remotehost:remote-filename
+if ${PWD##*/}=public;
+sftp user@host
+mput -r *

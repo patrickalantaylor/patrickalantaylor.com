@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Focusing and Defocusing | My New Hugo Site</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Focusing and Defocusing</span></h1>
+
+<h2 class="date">2013/07/13</h2>
+</div>
+
+<main>
+<p>I have been lucky enough to do some on-the-ground coaching with our test staff over the last couple of weeks and I was reminded about the unique issues involved with getting from suspected problems or code smells to isolated and replicable bugs. There are many cases in which we see something a first that appears to be an problem and turns out to be either bigger or smaller than it seemed.</p>
+<p>Take one case in which a spending report shows a distinct but nominal difference when comparing year over year figures.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Target</th>
+          <th>Reference</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>2011</td>
+          <td>$16,985,654.53</td>
+      </tr>
+      <tr>
+          <td>2012</td>
+          <td>$23,782,198.21</td>
+      </tr>
+  </tbody>
+</table>
+<p>There is no doubt that there is a difference, but it is in the neighborhood of 1%. If this difference is consistently low at all levels of aggregation it will be of little concern for reporting purposes. So do we ignore it let it be or do we write a bug? And here is where we get to problem isolation: one of the most useful things that we can do in software testing. One of the most useful techniques in this is focusing and defocusing concepts that are used in the practice of Rapid Testing  <a href="http://www.developsense.com/courses/RapidSoftwareTesting.pdf">http://www.developsense.com/courses/RapidSoftwareTesting.pdf</a></p>
+<p>Focusing and defocusing is a way of looking at the situation in front of us and see software in different and useful ways. The idea is very much a metaphor which I find myself describing as: drilling in - stepping back, or details - aggregates, accuracy - reliability, and other terms.</p>
+<p>In our business we focus and defocus along lots of vectors including:</p>
+<blockquote>
+<p>from coarse to fine (aggregation)<br>
+from simple to complex<br>
+from many descriptors (dimensions) to without descriptors<br>
+from technical accuracy to business usefulness<br>
+from tightly structured to loose</p>
+</blockquote>
+<p>When we look at the systems both in working and breaking scenarios. Here are some of the questions that we ask:</p>
+<p>Focusing questions:</p>
+<blockquote>
+<p>Does the data change in accuracy by applying more dimensions? (finer aggregations)<br>
+Can I look at a smaller slice of time?<br>
+What are my expectations of the accuracy of the data at the source?<br>
+Is the source that I am comparing the same source that the system is consuming?<br>
+Where in the chain of processing am I looking?<br>
+Can I remove measures or facts? Does that change anything?<br>
+How could data be excluded?<br>
+How could data be inflated?<br>
+How does this look<br>
+How would this data look in a table?<br>
+What can be eliminated?<br>
+Is there a hierarchy? how do I get to the bottom?<br>
+and more…</p>
+</blockquote>
+<p>Defocusing questions:</p>
+<blockquote>
+<p>Does the data change in accuracy by removing dimensions? (coarser aggregations)<br>
+Can I look at a larger slice of time?<br>
+At what stage of processing am I looking at the data?<br>
+Can I remove measures or facts? Does that change anything on those that remain?<br>
+What are my expectations about the state of processing? Is processing complete, is it incomplete? How can I tell?<br>
+Can the data be off but within tolerance? What informed that tolerance?<br>
+Is the data processed in scheduled jobs or in a continuous flow?<br>
+How long has the data been processing?<br>
+How would this data look graphically?<br>
+How does this look for other categories or clients?<br>
+Is there a hierarchy? how do I get to the top?<br>
+What can I add to this?<br>
+and more….</p>
+</blockquote>
+<p>And then some things that fit alongside focus-defocus but not within them:</p>
+<blockquote>
+<p>If the data looks wrong, what could change to make it look right?<br>
+If the data looks right, what could change to make the data look wrong?<br>
+Do colleagues assert that the data is correct or incorrect? Do I agree?</p>
+</blockquote>
+<p>Let’s go back to our hypothetical nominal 1% discrepancy. If we focus in by applying a country dimension, we might see something like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Country</th>
+          <th>Target</th>
+          <th>Reference</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>US</td>
+          <td>$9,593,427.23</td>
+          <td>$9,593,427.23</td>
+      </tr>
+      <tr>
+          <td>UK</td>
+          <td>$3,395,767.34</td>
+          <td>$3,395,767.34</td>
+      </tr>
+      <tr>
+          <td>FR</td>
+          <td>$1,342,834.49</td>
+          <td>$1,342,834.49</td>
+      </tr>
+      <tr>
+          <td>DE</td>
+          <td>$1,638,256.37</td>
+          <td>$1,638,256.37</td>
+      </tr>
+      <tr>
+          <td>ES</td>
+          <td>$-</td>
+          <td>$258,088.00</td>
+      </tr>
+      <tr>
+          <td>AU</td>
+          <td>$1,015,369.10</td>
+          <td>$1,015,369.10</td>
+      </tr>
+      <tr>
+          <td>TOTAL</td>
+          <td>$16,985,654.53</td>
+          <td>$17,243,742.53</td>
+      </tr>
+  </tbody>
+</table>
+<p>Now this tells a very different story right away. Although the total for the year is within an acceptable margin of error, it is because the value for Spain is missing entirely! Looking from this point of view, there is little question if this is a bug.</p>
+<p>So think about these 2 different bug titles:</p>
+<p><strong>1% variance in 2011 spend</strong></p>
+<p><strong>Spend for Spain is missing entirely from 2011 report</strong></p>
+<p>Which one of these is going to get the attention of our developers and analysts?</p>
+<p><em>This article was written as part of work I did at the Vivaki Nerve Center, part of the Publicis Groupe. Its original archive can be found at <a href="https://web.archive.org/web/20160624022028/http://www.qathedata.com/blog/2013/07/17/focusing-and-defocusing/">https://web.archive.org/web/20160624022028/http://www.qathedata.com/blog/2013/07/17/focusing-and-defocusing/</a></em></p>
+
+</main>
+
+  <footer>
+  <div>&copy; Patrick Taylor</div>
+
+  
+  </footer>
+  </body>
+</html>
+

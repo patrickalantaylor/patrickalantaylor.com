@@ -2,14 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/k8s-serverless/</loc>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-16T13:33:18-08:00</lastmod>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-11-16T13:33:18-08:00</lastmod>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/welcome/</loc>
-    <lastmod>2024-11-16T13:33:18-08:00</lastmod>
+    <loc>http://localhost:1313/posts/focusing/</loc>
+    <lastmod>2013-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ambiguity/</loc>
+    <lastmod>2012-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/test-dashboard/</loc>
+    <lastmod>2012-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/charters/</loc>
+    <lastmod>2012-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/json-powershell/</loc>
+    <lastmod>2012-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/session-based/</loc>
+    <lastmod>2012-07-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/essential-test-automation/</loc>
+    <lastmod>2012-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/fisishing-well/</loc>
+    <lastmod>2012-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
