@@ -6,14 +6,42 @@
     <description>Recent content in Patrick Alan Taylor on Writing from Patrick Taylor, Technology Architect and Evangelist</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Do Agile and DevOps Interrelate?</title>
+      <link>http://localhost:1313/posts/devops-engineer-copy/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/devops-engineer-copy/</guid>
+      <description>&lt;p&gt;Although Agile and DevOps may seem entirely different, they complement each other in an impactful way. Effectively adopting both methodologies can improve delivery predictability and quality, increase delivery velocity, and increase revenue.&lt;/p&gt;&#xA;&lt;p&gt;In order to realize these benefits, it’s important for your organization to understand exactly what Agile and DevOps are and how they relate to one another.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-agile-and-devops-work-together&#34;&gt;How Agile and DevOps Work Together&lt;/h3&gt;&#xA;&lt;p&gt;Agile and DevOps have many of the same goals: to reduce time to value and to shorten feedback latency on successes and failures. Agile provides largely organizational methods for achieving this, and DevOps provides largely technical ones.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Kubernetes vs. Serverless:</title>
       <link>http://localhost:1313/posts/k8s-serverless/</link>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/k8s-serverless/</guid>
       <description>&lt;h3 id=&#34;kubernetes-vs-serverless-which-is-best-for-your-applications&#34;&gt;Kubernetes vs. Serverless: Which Is Best For Your Applications?&lt;/h3&gt;&#xA;&lt;p&gt;Microservice development has been around for some time and only continues to improve in popularity due to its flexibility and natural ability to accommodate scale.&lt;/p&gt;&#xA;&lt;p&gt;Containers are a great way to run microservices and Kubernetes (often abbreviated as k8s) and Docker are the clear favorites. Developers build their containers in Docker on the laptop and DevOps deploys the same to the k8s cluster in the cloud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Devops Engineers Can Accelerate Project Velocity &amp; Ensure Delivery</title>
+      <link>http://localhost:1313/posts/devops-engineer/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/devops-engineer/</guid>
+      <description>&lt;p&gt;Time to value is critical in today’s fast-paced world when your software developers do work that transforms business, saves millions of dollars, enriches human communication, and saves lives every day.&lt;/p&gt;&#xA;&lt;p&gt;By the same values, every day that we do not get new software, businesses stagnate, money is wasted, people are isolated, and lives are lost.&lt;/p&gt;&#xA;&lt;p&gt;It is our responsibility as software teams not to waste time.&lt;/p&gt;&#xA;&lt;h3 id=&#34;critical-roles-to-shorten-time-to-value&#34;&gt;Critical Roles To Shorten Time To Value&lt;/h3&gt;&#xA;&lt;p&gt;Developers are arguably the central critical element of getting software projects done. Because of this, when a software development team fails to deliver the desired features in the expected time and quality, organizations often try to address the issue by over-hiring developers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Scrum Masters Can Accelerate Project Velocity &amp; Ensure Delivery</title>
+      <link>http://localhost:1313/posts/scrum-master/</link>
+      <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/scrum-master/</guid>
+      <description>&lt;p&gt;All teams want to do better. All stakeholders want to get it faster. The highest-performing teams in software use Scrum Masters to achieve both.&lt;/p&gt;&#xA;&lt;p&gt;Things to know about how Scrum Masters can accelerate project velocity:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What is scrum?&lt;/li&gt;&#xA;&lt;li&gt;What is a scrum master?&lt;/li&gt;&#xA;&lt;li&gt;Critical Roles to Lift the Burden on Developers&lt;/li&gt;&#xA;&lt;li&gt;What is the Theory of Constraints?&lt;/li&gt;&#xA;&lt;li&gt;How Scrum Masters Can Unblock Constraints to Accelerate Velocity&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;what-is-scrum&#34;&gt;What is scrum?&lt;/h4&gt;&#xA;&lt;p&gt;Scrum is an agile project management framework that emphasizes teamwork, transparency, and working iteratively.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How SDETs Can Accelerate Project Velocity &amp; Ensure Delivery</title>
+      <link>http://localhost:1313/posts/sdet-accelerate/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sdet-accelerate/</guid>
+      <description>&lt;p&gt;Oftentimes when a software development team is not delivering the features desired by a business in the time and quality that the business expects, management will look to add software developers to the team.&lt;/p&gt;&#xA;&lt;p&gt;Like all members of a professional team, software developers are a challenge to hire, and they may not be the ones with the skills or inclinations that your team needs to move faster.&lt;/p&gt;&#xA;&lt;p&gt;Instead of over-hiring developers to problem solve, organizations are wise to turn to other members of their team, like Software Development Engineers in Test (SDET), to address constraints and accelerate project delivery.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Focusing and Defocusing</title>
