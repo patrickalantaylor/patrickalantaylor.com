@@ -3,7 +3,7 @@ date = '2012-07-14'
 title = 'A Journey Into Session Based Test Management'
 +++
 
-**Installment 1: On Test Cases**
+### Installment 1: On Test Cases
 One of the core values of our QA practice at the Vivaki Nerve Center is Intellectual Honesty. It is an aesthetic that we strive for truthfulness in our work and our communications and give the most accurate, least obfuscated information possible even when it is the harder thing to do.
 
 With that I have been driven to rethink our practice of test documentation and test cases. One of the most common questions from partners and leadership is what percentage of test cases are complete and what percentage of test cases are passing? On the surface this seems to be a reasonable metric for progress and results of test activity on a project. At least until we start to notice:

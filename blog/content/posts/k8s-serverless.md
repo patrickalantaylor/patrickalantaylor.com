@@ -2,7 +2,7 @@
 date = '2023-06-08'
 title = 'Kubernetes vs. Serverless:'
 +++
-**Kubernetes vs. Serverless: Which Is Best For Your Applications?**
+### Kubernetes vs. Serverless: Which Is Best For Your Applications?
 
 Microservice development has been around for some time and only continues to improve in popularity due to its flexibility and natural ability to accommodate scale.
 

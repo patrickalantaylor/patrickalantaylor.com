@@ -2,7 +2,7 @@
 date = '2012-08-27'
 title = 'A Journey Into Session Based Test Management: Test Charters'
 +++
-**Installment 2: Test Charters in Practice**
+### Installment 2: Test Charters in Practice
 
 In our initial installment of SBTM posts I discussed the problems that I see with the classic test case approach. Test cases end up being a deluge of detail and are tedious to follow and document. Even in an ideal setting where we are able to specify exactly what will be done and do exactly what we specify, the picture will always be incomplete.
 Consider this story: A tester is executing a case for a new feature. This feature takes two values from a source database, sums them and writes the result to a target data warehouse. A test case is written that instructs the tester to query the source, manually add up the values, and then look at the target to see that the calculated and recorded value is correct. If the tester can confirm that the value is correct. A simple examination says that the case passes and the tester can move on. But the value can be correct and still not be valid. There could be problems that show up in all kinds of ways that this case does not address:

@@ -3,7 +3,7 @@ date = '2012-10-05'
 title = 'A Journey Into Session Based Test Management: The Test Dashboard'
 +++
 
-**Installment 3: Reporting Project Status with A Lightweight QA Dashboard**
+### Installment 3: Reporting Project Status with A Lightweight QA Dashboard
 
 The thing that we like about test charters is that although the methods we employ are often technical, the goals of testing are always about the business. The language that we employ with charters allows us to speak in business language when needed and technical language when that makes more sense.
 

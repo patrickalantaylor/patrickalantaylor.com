@@ -5,13 +5,19 @@ body {
     line-height: 1.5;
 }
 
+p {
+    text-indent: 2em;
+}
+
 /* header and footer areas */
 .menu {
     padding: 0;
 }
+
 .menu li {
     display: inline-block;
 }
+
 .article-meta,
 .menu a {
     text-decoration: none;
@@ -19,17 +25,21 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .menu,
 .article-meta,
 footer {
     text-align: center;
 }
+
 .title {
     font-size: 1.1em;
 }
+
 footer a {
     text-decoration: none;
 }
+
 hr {
     border-style: dashed;
     color: #ddd;
@@ -43,11 +53,13 @@ pre {
     padding: 1em;
     overflow-x: auto;
 }
+
 code {
     background: black;
     color: lightgray;
     white-space: pre-wrap !important;
 }
+
 pre code {
     background: black;
 }
@@ -58,9 +70,11 @@ iframe,
 video {
     max-width: 100%;
 }
+
 main {
     hyphens: auto;
 }
+
 blockquote {
     background: #f9f9f9;
     border-left: 5px solid #ccc;
@@ -72,13 +86,16 @@ table {
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
 }
+
 table thead th {
     border-bottom: 1px solid #ddd;
 }
+
 th,
 td {
     padding: 5px;
 }
+
 thead,
 tfoot,
 tr:nth-child(even) {
@@ -86,12 +103,23 @@ tr:nth-child(even) {
 }
 
 ul {
-    color: green;
-    line-height: 1.3em;
+    line-height: 1.7em;
 }
-/* todo get clearner link for the h1 and pages
-*/
+
+li a {
+    font-weight: bold;
+}
+
 a {
-    color: black;
     text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
