@@ -6,4 +6,4 @@ Over more than 2 decades I have been working in software and transitioning and g
 
 [https://www.linkedin.com/in/patrickalantaylor/](https://www.linkedin.com/in/patrickalantaylor/)
 
-This blog is for writings about technogy, testing, architecture, and trends.
+This blog is a reference of my writings about technogy, testing, architecture, and trends. In many cases these are articles that I have done in a professional capacity and the copyright to those materials remains with the original organization referenced in the article.

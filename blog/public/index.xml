@@ -37,11 +37,32 @@
       <description>&lt;p&gt;All teams want to do better. All stakeholders want to get it faster. The highest-performing teams in software use Scrum Masters to achieve both.&lt;/p&gt;&#xA;&lt;p&gt;Things to know about how Scrum Masters can accelerate project velocity:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What is scrum?&lt;/li&gt;&#xA;&lt;li&gt;What is a scrum master?&lt;/li&gt;&#xA;&lt;li&gt;Critical Roles to Lift the Burden on Developers&lt;/li&gt;&#xA;&lt;li&gt;What is the Theory of Constraints?&lt;/li&gt;&#xA;&lt;li&gt;How Scrum Masters Can Unblock Constraints to Accelerate Velocity&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;what-is-scrum&#34;&gt;What is scrum?&lt;/h4&gt;&#xA;&lt;p&gt;Scrum is an agile project management framework that emphasizes teamwork, transparency, and working iteratively.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Is GitHub Copilot Worth It?</title>
+      <link>http://localhost:1313/posts/engineering-support/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/engineering-support/</guid>
+      <description>&lt;p&gt;Although there are multiple AI coding assistant plugins in different stages of development right now in the industry, the release of GitHub’s Copilot as a paid product made the biggest splash in the community so far.&lt;/p&gt;&#xA;&lt;p&gt;AI coding assistance is a very new market and comes with a lot of caveats. This tool is in no danger of replacing anybody’s job in the near future, but it will change the way you write. But will that be for the better or for the worse?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Track Your Plan: Measuring Engineering Support</title>
+      <link>http://localhost:1313/posts/github-copilot/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/github-copilot/</guid>
+      <description>&lt;p&gt;Today’s knowledge worker finds that to be happy and satisfied in their career, the biggest factor is the opportunity to thrive.&lt;/p&gt;&#xA;&lt;p&gt;Although we as employers sink countless hours into identifying, vetting, and hiring the best people in the industry, once they are on the team, we tend to focus only on the metrics that can weed out the low performers.&lt;/p&gt;&#xA;&lt;p&gt;What would shift within our organizations if we placed less emphasis on the metrics of individual performers and a greater focus on our leaders setting them up for success?&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How SDETs Can Accelerate Project Velocity &amp; Ensure Delivery</title>
       <link>http://localhost:1313/posts/sdet-accelerate/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/sdet-accelerate/</guid>
       <description>&lt;p&gt;Oftentimes when a software development team is not delivering the features desired by a business in the time and quality that the business expects, management will look to add software developers to the team.&lt;/p&gt;&#xA;&lt;p&gt;Like all members of a professional team, software developers are a challenge to hire, and they may not be the ones with the skills or inclinations that your team needs to move faster.&lt;/p&gt;&#xA;&lt;p&gt;Instead of over-hiring developers to problem solve, organizations are wise to turn to other members of their team, like Software Development Engineers in Test (SDET), to address constraints and accelerate project delivery.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Chatbots, Large Language Models &amp; Getting a Correct Answer</title>
+      <link>http://localhost:1313/posts/llm-correctness/</link>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/llm-correctness/</guid>
+      <description>&lt;p&gt;Google’s parent company, Alphabet, has found itself in the news after their not-yet-released AI chatbot, Bard, gave an incorrect answer to a prompt during its initial demo.&lt;/p&gt;&#xA;&lt;p&gt;This is generating buzz within the tech community, which causes us to pause and assess the veracity of answers given by AI chatbots and how heavily we can truly rely on these tools.&lt;/p&gt;&#xA;&lt;h3 id=&#34;googles-chatbots-major-error&#34;&gt;Google’s Chatbot’s Major Error&lt;/h3&gt;&#xA;&lt;p&gt;In the chatbot’s demo, recently posted by Google on Twitter, a user poses the question: “What new discoveries from the James Webb Space Telescope can I tell my 9 year old about?” Bard’s response, pictured, includes a major factual error.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Focusing and Defocusing</title>
